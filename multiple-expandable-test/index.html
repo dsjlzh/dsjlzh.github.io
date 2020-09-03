@@ -6,12 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.69.0" />
-  <link rel="canonical" href="https://dsjlzh.github.io/">
+  <link rel="canonical" href="https://dsjlzh.github.io/multiple-expandable-test/">
 
-  
-    
-      <meta name="description" content="An accessibility-friendly Hugo theme, ported from the original Cupper project.">
-    
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -38,9 +34,7 @@
 
   
   
-    
-  
-  <title>Cupper</title>
+  <title>Multiple Expandable Test | Cupper</title>
 </head>
 
   <body>
@@ -165,7 +159,7 @@
       
       
       
-      <a href="/" aria-current="page">
+      <a href="/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -178,7 +172,7 @@
       
       
       
-      <a href="/post/" >
+      <a href="/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -234,21 +228,133 @@
         <div>
           
   <main id="main">
-    <h1>Home</h1>
-    <p>Welcome to <strong>Cupper</strong>: An accessibility-friendly Hugo theme, ported from the <a href="https://github.com/ThePacielloGroup/cupper">original Cupper</a> project. Here are some of its features:</p>
-<div class="ticks">
-  <ul>
-<li>Screen reader and keyboard accessible</li>
-<li>Responsive</li>
-<li>Numerous shortcodes</li>
-<li>Toggleable dark theme</li>
-<li>Toggleable table of contents per blog post</li>
-</ul>
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Multiple Expandable Test
+    </h1>
 
+    <div class="date">
+      
+      
+      <strong>Publish date: </strong>Jun 17, 2020
+      
+        
+          <br>
+          <strong>Last updated: </strong>Sep 3, 2020
+        
+      
+    </div>
+
+    
+      <div class="tags">
+        <strong>Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://dsjlzh.github.io/tags/issue/">issue</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
+      
+
+
+    
+
+    <p>Testing out GitHub issue <a href="https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36">https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36</a> &ndash; Multiple expandable shortcodes do not work if they have the same inner text.</p>
+<div class="expandable-section">
+  
+    <h2>
+  
+    
+    
+    
+    
+    
+    <button aria-expanded="false" data-expands="js-expandable-f85edac4190cc55bb2fddd17eb44c1ed">
+      <span class="expandable-label">expandable 1</span>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
+        <g transform="translate(0 -981.5)">
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
+        </g>
+      </svg>
+    </button>
+  
+    </h2>
+  
+  <div id="js-expandable-f85edac4190cc55bb2fddd17eb44c1ed" hidden>
+    Same inner text.
+  </div>
+</div>
+
+<div class="expandable-section">
+  
+    <h2>
+  
+    
+    
+    
+    
+    
+    <button aria-expanded="false" data-expands="js-expandable-4ead5eebdf18fd1d71945cb4bcc52d0c">
+      <span class="expandable-label">expandable 2</span>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
+        <g transform="translate(0 -981.5)">
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
+        </g>
+      </svg>
+    </button>
+  
+    </h2>
+  
+  <div id="js-expandable-4ead5eebdf18fd1d71945cb4bcc52d0c" hidden>
+    Same inner text.
+  </div>
+</div>
+
+<div class="expandable-section">
+  
+    <h2>
+  
+    
+    
+    
+    
+    
+    <button aria-expanded="false" data-expands="js-expandable-723f094d1501368296ca4ee4d4414caf">
+      <span class="expandable-label">expandable 3</span>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
+        <g transform="translate(0 -981.5)">
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
+        </g>
+      </svg>
+    </button>
+  
+    </h2>
+  
+  <div id="js-expandable-723f094d1501368296ca4ee4d4414caf" hidden>
+    Different inner text.
+  </div>
 </div>
 
 
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
